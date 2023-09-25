@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1{
+    color: aliceblue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+ /* Existing styles remain unchanged */
+
+/* Updated styles for the search input and button */
+#search-input {
+    padding: 10px;
+    margin-right: 5px; /* Adjusted margin */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #555;
+  }
+  
+  
+  
+  main {
+    padding: 20px;
+    background-color: #555;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0; /* Added padding for spacing */
+    
+  }
+  
+  .anime-card {
+    width: 600px; /* Fixed width for each card */
+    height: 200px; /* Adjusted height for each card */
+    margin-right: 20px;
+    padding: 1px; /* Adjusted padding */
+    border: 6px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  
+  .anime-card img {
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover the available space */
+  }
+  
+  
+  .anime-card h2 {
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap; /* Keep the text in a single line */
+    overflow: hidden; /* Hide the overflowing content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+    font-size: 14px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .scroll-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjusted padding for the buttons */
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 10px;
+    border-radius: 50px;
+  }
+  
+  .scroll-button:hover {
+    background-color: #555;
+  }

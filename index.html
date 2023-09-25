@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OtakuHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>OtakuHub</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Anime Series</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <input type="text" id="search-input" placeholder="Search anime...">
+<button id="search-button">Search</button>
+
+  </header>
+  
+  <main>
+    <h1>Recent episodes</h1>
+    <div class="scroll-container">
+      <button class="scroll-button" id="scroll-left">&lt;</button>
+      <section class="anime-list" id="recent-episodes">
+        <!-- Recent episodes will be displayed here -->
+        <div class="anime-card">
+          <img src="episode1_thumbnail.jpg" alt="Episode 1">
+          <div class="title-overlay">
+            <h2>Episode 1</h2>
+          </div>
+        </div>
+
+        <div class="anime-card">
+          <img src="episode2_thumbnail.jpg" alt="Episode 2">
+          <div class="title-overlay">
+            <h2>Episode 2</h2>
+          </div>
+        </div>
+
+        <!-- Add more anime cards as needed -->
+      </section>
+      <button class="scroll-button" id="scroll-right">&gt;</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Anime Streaming Website</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
